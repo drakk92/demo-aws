@@ -16,7 +16,7 @@ public class HelloController {
 	
 	@GetMapping("/{name}")
 	public String index(@PathVariable("name") String name) {
-		return "Hello "+name+" from Spring Boot and AWS";
+		return "Hello "+name+" from Spring Boot and AWS prueba cloud";
 	}
 
 }
